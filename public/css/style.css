@@ -1,0 +1,374 @@
+body {
+	margin:0px auto;
+	margin-right: auto;
+	margin-left: auto;
+	background: #F9F9F9;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+}
+
+/*  HEADER */
+
+header {
+	width: 800px;
+	height: 100px;
+	background: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	border-radius: 0px 20px 0px 0px;
+	border: 1px #CDCDCD solid;
+	background-color: white;
+	background-image: url('../img/journal.png');
+}
+
+header > img {
+	float:left;
+}
+
+.app-info {
+	float: left;
+	color:#717173;
+}
+
+h1.app-heading {
+	font-size: 20px;
+	padding-bottom: 0px;
+	line-height: 4px;
+}
+
+/*  WRAPPER */
+section.wrapper {
+	background-color: white;
+	margin:0px auto;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	height: auto;
+	background-size: contain;
+	border: 1px #CDCDCD solid;
+	border-top: none;
+	border-bottom: none;
+	overflow: auto;
+}
+
+/* SIDEBAR */
+
+aside.sidebar {
+	width: 200px;
+	min-height: inherit;
+	float: left;
+	border-right: 1px #CDCDCD solid;
+	margin-right: 20px;
+	padding:10px 0px 0px 10px;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin-top:10px;
+    padding: 0px;
+    width: 190px;
+}
+
+ul.menu > li > a.nav-link,
+ul.dropmenu > li > a.nav-link {
+	padding:5px;/* 
+	background: #CDCDCD; */
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 1px #F0F0F0 solid;
+}
+
+ul.menu > li > a.nav-link:hover,
+ul.dropmenu > li > a.nav-link:hover  {
+    /* background-color: #555; */
+    color: #444;
+  	-moz-transition: 500ms ease-out;
+  	-ms-transition: 500ms ease-out;
+  	-o-transition: 500ms ease-out;
+  	-webkit-transition: 500ms ease-out;
+    transition: 300ms ease-in;
+    margin-left: 3px;
+}
+
+ul.menu > li > ul.dropmenu {
+	display: none;
+	list-style-type: none;
+    padding-left: 10px;
+    width: 180px;
+}
+
+ul.menu > li:hover > ul.dropmenu {
+	position: relative;
+	display: inline-block;
+  	-moz-transition: 1000ms ease-in;
+  	-ms-transition: 1000ms ease-in;
+  	-o-transition: 1000ms ease-in;
+  	-webkit-transition: 1000ms ease-in;
+	transition: 1000ms ease-in;
+}
+
+ul.menu > li > a.nav-link,
+ul.dropmenu > li > a.nav-link {
+	text-decoration: none;
+	color: #444;
+}
+
+
+/*  CONTENT  */
+div.content {
+	padding: 10px;
+	float: left;
+	max-width: 750px;
+	height: auto;
+	background: white;
+}
+
+
+/* FOOTER */
+footer {
+	background: white;
+	text-align: center;
+	width: 800px;
+	background: white;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px #CDCDCD solid;
+	clear: both;
+	padding:10px 0px 10px 0px;
+	border-radius: 0px 0px 0px 20px;
+	margin-bottom: 20px;
+}
+
+
+/*  CONTENT  */
+
+small { text-decoration:;  }
+
+label {
+	float: left;
+	width: 100px;
+}
+
+.search-box > input[type=text] {
+    width: 90%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 5px;
+	margin:15px 0px 25px 5px;
+}
+
+.box-filter {
+	width: 530px;
+	height: auto;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #CDCDCD;
+	float: left;
+}
+
+label.form-label {
+	float: left;
+	width: 100px;
+	font-weight: bold;
+}
+select.form-control {
+	float: left;
+	width: 400px;
+	padding:3px;
+}
+
+div.form {
+	clear: both;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+div.form > button.btn {
+	margin-left: 100px;
+	padding: 7px;
+	font-size: 13px;
+	font-weight: 300
+}
+
+input.form-control {
+	padding: 3px;
+	width: 400px;
+}
+
+textarea {
+	width: 400px;
+	height: 100px;
+	text-align: left;
+}
+
+
+
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 770px;
+    font-size: 12px;
+}
+
+th, td {
+    padding: 8px;
+}
+
+table.table-border > thead {
+	font-weight: bold;
+	background: #F4FAF0
+}
+
+
+
+span.block-heading {
+	font-weight: bold;
+	color:#939694;
+	border-left: 3px solid #F7C203;
+	padding-left: 15px;
+	margin-top: 80px;
+}
+
+
+.box-list {
+	width: 520px;
+	height: auto;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #CDCDCD;
+	float: left;
+}
+
+.box-list > img {
+	width: 100px;
+	float: left;
+}
+
+.box-list > div.box-content {
+	width: 400px;
+	float: left;
+	margin-left: 20px;
+}
+
+.box-list > div.box-content > h3, a.title {
+	display: inline;
+	font-weight: bold;
+	text-decoration: none;
+	color: #767676;
+}
+
+.box-list > div.box-content > h3, a.title:hover, a.title:active {
+	color: #444;
+}
+
+.box-list > div.box-content > p {
+	line-height: 15px;
+	margin:5px 0px 5px 0px;
+}
+
+div.detail-paragraph p {
+	text-indent:30px;
+	font-size: 10pt;
+	text-align: justify;
+	line-height: 20px;
+}
+
+div.form-error {
+	font-size: 11px; 
+	color: red;
+}
+
+
+a.read-more {
+	font-weight: bold;
+	font-style: italic;
+	padding-bottom: 2px;
+	border-bottom: 1px solid inherit;
+	color: #F7C203;
+	letter-spacing: 2px;
+}
+
+
+ul.pagination {
+    display: inline;
+    margin:20px;
+    list-style: none;
+}
+
+.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination li.active a {
+    background-color: #F7C203;
+    color: white;
+    font-weight: bold;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+.btn {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 11px;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
+
+.alert {
+    padding: 10px;
+    color: white;
+}
+
+.alert-danger {
+	background-color: #f44336;
+}
+
+.alert-success {
+	background-color: #52BD33;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
